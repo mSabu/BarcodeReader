@@ -13,14 +13,15 @@
 		1896D12F18D9F29C00133F54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1896D12D18D9F29C00133F54 /* InfoPlist.strings */; };
 		1896D13118D9F29C00133F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1896D13018D9F29C00133F54 /* main.m */; };
 		1896D13518D9F29C00133F54 /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1896D13418D9F29C00133F54 /* BRAppDelegate.m */; };
-		1896D13818D9F29C00133F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1896D13618D9F29C00133F54 /* Main.storyboard */; };
-		1896D13B18D9F29C00133F54 /* BRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1896D13A18D9F29C00133F54 /* BRViewController.m */; };
 		1896D13D18D9F29C00133F54 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1896D13C18D9F29C00133F54 /* Images.xcassets */; };
 		1896D14418D9F29C00133F54 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1896D14318D9F29C00133F54 /* XCTest.framework */; };
 		1896D14518D9F29C00133F54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1896D12418D9F29C00133F54 /* Foundation.framework */; };
 		1896D14618D9F29C00133F54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1896D12818D9F29C00133F54 /* UIKit.framework */; };
 		1896D14E18D9F29C00133F54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1896D14C18D9F29C00133F54 /* InfoPlist.strings */; };
 		1896D15018D9F29C00133F54 /* BarcodeReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1896D14F18D9F29C00133F54 /* BarcodeReaderTests.m */; };
+		18F92DE91970879D0053C1E0 /* BRBarcodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F92DE51970879D0053C1E0 /* BRBarcodeScanViewController.m */; };
+		18F92DEA1970879D0053C1E0 /* BRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F92DE81970879D0053C1E0 /* BRViewController.m */; };
+		18F92DEC197087C50053C1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F92DEB197087C50053C1E0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +45,18 @@
 		1896D13218D9F29C00133F54 /* BarcodeReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarcodeReader-Prefix.pch"; sourceTree = "<group>"; };
 		1896D13318D9F29C00133F54 /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
 		1896D13418D9F29C00133F54 /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
-		1896D13718D9F29C00133F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1896D13918D9F29C00133F54 /* BRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRViewController.h; sourceTree = "<group>"; };
-		1896D13A18D9F29C00133F54 /* BRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRViewController.m; sourceTree = "<group>"; };
 		1896D13C18D9F29C00133F54 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1896D14218D9F29C00133F54 /* BarcodeReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1896D14318D9F29C00133F54 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1896D14B18D9F29C00133F54 /* BarcodeReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarcodeReaderTests-Info.plist"; sourceTree = "<group>"; };
 		1896D14D18D9F29C00133F54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1896D14F18D9F29C00133F54 /* BarcodeReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarcodeReaderTests.m; sourceTree = "<group>"; };
+		18F92DE41970879D0053C1E0 /* BRBarcodeScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBarcodeScanViewController.h; sourceTree = "<group>"; };
+		18F92DE51970879D0053C1E0 /* BRBarcodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBarcodeScanViewController.m; sourceTree = "<group>"; };
+		18F92DE61970879D0053C1E0 /* BRScannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRScannerDelegate.h; sourceTree = "<group>"; };
+		18F92DE71970879D0053C1E0 /* BRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRViewController.h; sourceTree = "<group>"; };
+		18F92DE81970879D0053C1E0 /* BRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRViewController.m; sourceTree = "<group>"; };
+		18F92DEB197087C50053C1E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +118,12 @@
 			children = (
 				1896D13318D9F29C00133F54 /* BRAppDelegate.h */,
 				1896D13418D9F29C00133F54 /* BRAppDelegate.m */,
-				1896D13618D9F29C00133F54 /* Main.storyboard */,
-				1896D13918D9F29C00133F54 /* BRViewController.h */,
-				1896D13A18D9F29C00133F54 /* BRViewController.m */,
+				18F92DE41970879D0053C1E0 /* BRBarcodeScanViewController.h */,
+				18F92DE51970879D0053C1E0 /* BRBarcodeScanViewController.m */,
+				18F92DE61970879D0053C1E0 /* BRScannerDelegate.h */,
+				18F92DE71970879D0053C1E0 /* BRViewController.h */,
+				18F92DE81970879D0053C1E0 /* BRViewController.m */,
+				18F92DEB197087C50053C1E0 /* Main.storyboard */,
 				1896D13C18D9F29C00133F54 /* Images.xcassets */,
 				1896D12B18D9F29C00133F54 /* Supporting Files */,
 			);
@@ -200,6 +207,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Thapovan;
 				TargetAttributes = {
+					1896D12018D9F29C00133F54 = {
+						DevelopmentTeam = 9SECP7762P;
+					};
 					1896D14118D9F29C00133F54 = {
 						TestTargetID = 1896D12018D9F29C00133F54;
 					};
@@ -229,9 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F92DEC197087C50053C1E0 /* Main.storyboard in Resources */,
 				1896D13D18D9F29C00133F54 /* Images.xcassets in Resources */,
 				1896D12F18D9F29C00133F54 /* InfoPlist.strings in Resources */,
-				1896D13818D9F29C00133F54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1896D13B18D9F29C00133F54 /* BRViewController.m in Sources */,
+				18F92DE91970879D0053C1E0 /* BRBarcodeScanViewController.m in Sources */,
 				1896D13518D9F29C00133F54 /* BRAppDelegate.m in Sources */,
+				18F92DEA1970879D0053C1E0 /* BRViewController.m in Sources */,
 				1896D13118D9F29C00133F54 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +292,6 @@
 				1896D12E18D9F29C00133F54 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1896D13618D9F29C00133F54 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1896D13718D9F29C00133F54 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		1896D14C18D9F29C00133F54 /* InfoPlist.strings */ = {
@@ -379,10 +382,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BarcodeReader/BarcodeReader-Prefix.pch";
 				INFOPLIST_FILE = "BarcodeReader/BarcodeReader-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +398,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BarcodeReader/BarcodeReader-Prefix.pch";
 				INFOPLIST_FILE = "BarcodeReader/BarcodeReader-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +470,7 @@
 				1896D15518D9F29C00133F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1896D15618D9F29C00133F54 /* Build configuration list for PBXNativeTarget "BarcodeReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +479,7 @@
 				1896D15818D9F29C00133F54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

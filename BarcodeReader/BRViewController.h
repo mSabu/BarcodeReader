@@ -1,13 +1,16 @@
 //
 //  BRViewController.h
-//  BarcodeReader
+//  BarcodeScanner
 //
-//  Created by Manjusha on 3/19/14.
-//  Copyright (c) 2014 Thapovan. All rights reserved.
+//  Created by Manjusha on 6/4/14.
+//  Copyright (c) 2014 Manjusha. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "BRScannerDelegate.h"
 
-@interface BRViewController : UIViewController
+@interface BRViewController : UIViewController <BRScannerDelegate>
+
+@property (strong, nonatomic) NSString *barCode;
 
 @end
